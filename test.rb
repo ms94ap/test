@@ -32,7 +32,6 @@ def merge(a, b)
 	current_position_a = 0
 	current_position_b = 0
 	new_arr = []
-	# n = [1,2,5] cpa = 1 cpb = 2
 	while new_arr.length < (a.length + b.length) do
 		if a[current_position_a] && b[current_position_b]
 			if a[current_position_a] < b[current_position_b]
@@ -52,8 +51,9 @@ def merge(a, b)
 	end
 
 	new_arr
-
 end
+binding.pry
+
 
 # arr = [1,2,6,8,14]
 # arr2 = [5,8,12,57]

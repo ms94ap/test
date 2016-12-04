@@ -26,7 +26,7 @@ describe "merge" do
 		expect(merge(a, b)).to eq(expected)
 	end
 
-	it "merrges different size arrays" do 
+	it "merges different size arrays" do 
 		a = [2,6,10,11]
 		b = [1,5]
 		expected = (a + b).sort
